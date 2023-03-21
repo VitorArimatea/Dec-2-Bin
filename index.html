@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Decimal to binary converter</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="scripts.js"></script>
-    </head>
-    <body>
-        <header>
-            <h1>Decimal to binary</h1>
-        </header>
-        <main>
-            <div class="container">
-                <div class="container-input">
-                    <span>Digite qualquer valor decimal</span>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decimal to binary converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Decimal to binary</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container-input">
+                <span>Digite qualquer valor decimal</span>
                     <input type="text" maxlength="9" onchange="converter(this.value)">
-                </div>
-                <div class="container-output">
-                    <span>Esse valor em Binário</span>
-                    <span id="result-input">0</span>
-                </div>
             </div>
-        </main>
-    </body>
+            <div class="container-output">
+                <span>Esse valor em Binário</span>
+                <span id="result-input">0</span>
+            </div>
+        </div>
+    </main>
+</body>
 </html>

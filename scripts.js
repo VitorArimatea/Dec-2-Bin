@@ -1,5 +1,7 @@
-function converter(number) {
-    var decimal = parseInt(number)
-    var binary = decimal.toString(2)
-    document.getElementById('result-input').innerHTML = binary
-}
+function converter (number) {
+    const decimal = parseInt(number);
+    const binary = decimal.toString(2);
+
+    document.getElementById('result-input').innerHTML = binary;
+};
+
